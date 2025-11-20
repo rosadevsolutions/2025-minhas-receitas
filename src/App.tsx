@@ -1,7 +1,7 @@
 export default function App() {
   return (
     <>
-      Projeto Limpo
+      <span className="text-red-600">Projeto Limpo</span>
     </>
   )
 }
