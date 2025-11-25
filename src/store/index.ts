@@ -1,8 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
+import recipesSlice from "./features/recipes/recipesSlices";
 
 //store recebe um objeto
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+    recipes: recipesSlice,
+  },
 });
 
 // Exportar os tipos do redux.
