@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import recipesSlice from "./features/recipes/recipesSlices";
+import recipesSlice from "./features/recipes/recipesSlice";
 
 //store recebe um objeto
 export const store = configureStore({

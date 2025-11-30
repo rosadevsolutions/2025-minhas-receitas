@@ -1,1 +1,1 @@
-export * from "./recipes/recipesSlices";
+export * from "./recipes/recipesSlice";
